@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "mode": "feature",
+  "scenario": "backend telemetry, recommendation rebuild, and retention behavior proof",
+  "provider": "local-convex-dev",
+  "baseline": "not run for backend proof",
+  "candidate": "bfcf8bcf",
+  "generatedAt": "2026-05-16T07:01:37Z",
+  "outputDir": ".artifacts/clawhub-ui-proof/backend-recommendation-proof-20260516-005916",
+  "lanes": []
+}
