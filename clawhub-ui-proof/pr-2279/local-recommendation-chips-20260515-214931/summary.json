@@ -1,0 +1,38 @@
+{
+  "status": "pass",
+  "mode": "feature",
+  "scenario": ".artifacts/proof-scenarios/recommendation-chips-local.pw.ts",
+  "provider": "local-playwright-chrome",
+  "baseline": "not run for feature proof",
+  "candidate": "codex/dynamic-search-recommendations",
+  "generatedAt": "2026-05-16T03:49:36.541Z",
+  "outputDir": ".artifacts/clawhub-ui-proof/local-recommendation-chips-20260515-214931",
+  "seededTopics": [
+    "github integration",
+    "security scanner",
+    "mcp tools",
+    "dashboard builder"
+  ],
+  "lanes": [
+    {
+      "name": "candidate",
+      "ref": "codex/dynamic-search-recommendations",
+      "status": "pass",
+      "localOutputDir": ".artifacts/clawhub-ui-proof/local-recommendation-chips-20260515-214931/candidate",
+      "steps": [
+        {
+          "name": "Homepage shows labeled recommendation chips",
+          "slug": "homepage-recommendation-chips",
+          "status": "pass",
+          "screenshot": "homepage-recommendation-chips.png"
+        },
+        {
+          "name": "Clicking a recommendation opens matching search",
+          "slug": "chip-search-navigation",
+          "status": "pass",
+          "screenshot": "chip-search-navigation.png"
+        }
+      ]
+    }
+  ]
+}
