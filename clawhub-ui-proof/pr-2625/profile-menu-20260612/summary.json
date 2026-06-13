@@ -3,7 +3,7 @@
   "mode": "feature",
   "scenario": "signed-in avatar menu profile link",
   "provider": "local-auth Playwright",
-  "candidate": "0c526e10",
+  "candidate": "c6e04637",
   "lanes": [
     {
       "name": "candidate",
