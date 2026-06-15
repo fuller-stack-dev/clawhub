@@ -1,0 +1,20 @@
+{
+  "status": "pass",
+  "mode": "feature",
+  "scenario": "signed-in avatar menu profile link",
+  "provider": "local-auth Playwright",
+  "candidate": "a092677",
+  "lanes": [
+    {
+      "name": "candidate",
+      "steps": [
+        {
+          "name": "Signed-in avatar menu with Profile above Dashboard",
+          "slug": "signed-in-avatar-menu",
+          "status": "pass",
+          "screenshot": "signed-in-avatar-menu.png"
+        }
+      ]
+    }
+  ]
+}
